@@ -11,7 +11,7 @@
 ## Description
 
 This application allows users to create, read, update, and delete (CRUD) short post-it style notes and image posts. Users can also bookmark their favorite posts and images. <br/><br/>
-The app is built with Next.js and TypeScript, styled with Tailwind CSS, and uses Cloudinary for image storage. Next Auth is used to ensure secure user authentication, while React Dropzone provides a user-friendly drag-and-drop interface for image uploads. <br /><br />
+The app is built with Next.js and TypeScript, styled with Tailwind CSS, and uses Cloudinary for image storage. Next Auth is used to ensure secure user authentication, while React Dropzone provides a user-friendly drag-and-drop interface for image uploads. PostgreSQL is used as the primary database for efficient data management.<br /><br />
 < Test Account > <br />
 Username: testuser <br />
 Password: password
@@ -32,16 +32,19 @@ Password: password
   &nbsp;Users can create, read, update, delete, and bookmark post-it style notes. <br />
 - **Image Blog**: <br/>
   &nbsp;Users can upload images, manage them, and bookmark their favorite images. Images can be uploaded via drag-and-drop or by selecting files. <br />
-- **Cloudinary Integration**: <br/>
-  &nbsp;Uploaded images are stored securely using Cloudinary's cloud service. <br />
 - **Authentication**: <br/>
   &nbsp;Users can sign up, log in, and log out.
+- **Database Management**: <br/>
+  &nbsp;PostgreSQL is used as the primary database, providing robust and efficient data management.
+- **Cloudinary Integration**: <br/>
+  &nbsp;Uploaded images are stored securely using Cloudinary's cloud service. <br />
 - **Contact Page**: <br/>
   &nbsp;Users can send messages directly to the blog team through a simple, user-friendly form.
 
 ## Technologies Used
 
 - Next.js
+- PostgreSQL
 - TypeScript
 - Tailwind CSS
 - Cloudinary
